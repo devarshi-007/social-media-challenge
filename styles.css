@@ -11,3 +11,47 @@
 .bold-custom{
     font-weight: bold;
 }
+.custom-dark-grayish-blue{
+    color: hsl(228, 12%, 44%);
+}
+.cusom-very-dark-grayish-blue{
+    color: hsl(230, 17%, 14%);
+}
+
+.big-card-width{
+    width: 260px;
+    height: 260px;
+}
+
+.padding-overwrite{
+    padding: 0px;
+}
+
+.top-broder-blue{
+    border-top: 5px solid #00acee;
+}
+
+.youtube-color{
+    color: #FF0000;
+}
+
+.top-border-youtube{
+    border-top: 5px solid #FF0000;
+}
+
+.top-border-insta {
+    border-top: 5px solid #fa7e1e;
+}
+
+.custom-height{
+    height: 30%;
+}
+
+.sub-card-width {
+    width: 20%;
+    height: 10%;
+}
+
+.custom-size{
+    font-size: 170%;
+}
