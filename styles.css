@@ -8,3 +8,6 @@
 .bg-card-blue{
     background-color:hsl(227, 47%, 96%);
 }
+.bold-custom{
+    font-weight: bold;
+}

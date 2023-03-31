@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <title>Social Media Dashboard</title>
 
   <style>
@@ -18,60 +18,91 @@
   </style>
 </head>
 <body class="bg-wight">
-  <div class="container-fluid bg-pale-blue"> 
-    <div class="row mx-5 d-flex align-items-center">
-      <div class="col-5">
+  <div class="bg-pale-blue w-100 position-absolute h-25">
+  <div class="container-fluid"> 
+    <div class="row mx-5 px-5 d-flex align-items-center">
+      <div class="col-6 px-5">
         <p class="display-5 mt-4 mb-0 px-5 font-custom">Social Media 
           Dashboard</p>
       <p class="px-5 font-custom">Total Followers: 23,004</p>
       </div>
-      <div class="col offset-4 font-custom">
-        <p class="al">Dark Mode</p>
+      <div class="col offset-4 font-custom d-flex">
+        <p class="pe-2 font-custom">Light Mode</p>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+          <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+        </div>
       </div>
     </div>
-    <div class="row mx-5 px-5 mt-5">
-      <div class="col-2 p-0 bg-card-blue card">
+    <div class="row mx-5 px-5 mt-5 justify-content-evenly font-custom">
+      <div class="col-2 p-2 bg-card-blue card">
         <div class="card-body">
           <div class="display-inline d-flex justify-content-center pt-3">
             <img src="./images/icon-facebook.svg" widht="20px" height="20px" alt="Card image cap">
             <span class="ps-2 card-title font-custom">  @nathanf</span>
           </div>
-          <div class="card-text d-flex justify-content-center"><span class="display-3">1987</span><br/>
-            Followers</div>
-      
+          <div class="card-text text-center pt-3"><h1>1987</h1>
+            <h5 class="font-custom">Followers</h5>
+          </div>
+          <div class="text-center text-success pt-3 bold-custom">
+            <img src="./images/icon-up.svg" widht="10px" height="8px" alt="Card image cap">
+            12 Today
+          </div>  
+        </div>
+      </div>
+      <div class="col-2 p-2 bg-card-blue card">
+        <div class="card-body">
+          <div class="display-inline d-flex justify-content-center pt-3">
+            <img src="./images/icon-twitter.svg" widht="20px" height="20px" alt="Card image cap">
+            <span class="ps-2 card-title font-custom">  @nathanf</span>
+          </div>
+          <div class="card-text text-center pt-3"><h1>1044</h1>
+            <h5 class="font-custom">Followers</h5>
+          </div>
+          <div class="text-center text-success pt-3 bold-custom">
+            <img src="./images/icon-up.svg" widht="10px" height="8px" alt="Card image cap">
+            99 Today
+          </div>  
+        </div>
+      </div>
+      <div class="col-2 p-2 bg-card-blue card">
+        <div class="card-body">
+          <div class="display-inline d-flex justify-content-center pt-3">
+            <img src="./images/icon-instagram.svg" widht="20px" height="20px" alt="Card image cap">
+            <span class="ps-2 card-title font-custom">  @realnathanf</span>
+          </div>
+          <div class="card-text text-center pt-3"><h1>11k</h1>
+            <h5 class="font-custom">Followers</h5>
+          </div>
+          <div class="text-center text-success pt-3 bold-custom">
+            <img src="./images/icon-up.svg" widht="10px" height="8px" alt="Card image cap">
+            1099 Today
+          </div>  
+        </div>
+      </div>
+      <div class="col-2 p-2 bg-card-blue card">
+        <div class="card-body">
+          <div class="display-inline d-flex justify-content-center pt-3">
+            <img src="./images/icon-youtube.svg" widht="20px" height="20px" alt="Card image cap">
+            <span class="ps-2 card-title font-custom">Nathan F.</span>
+          </div>
+          <div class="card-text text-center pt-3"><h1>8239</h1>
+            <h5 class="font-custom">Subscribers</h5>
+          </div>
+          <div class="text-center text-success pt-3 bold-custom">
+            <img src="./images/icon-down.svg" widht="10px" height="8px" alt="Card image cap">
+            144 Today
+          </div>  
         </div>
       </div>
     </div>
+    <div class="row mx-5 mt-4 px-5 d-flex align-items-center">
+      <div class="mx-5 px-5 font-custom"><span class="px-5"><h3>Overview - Today</h3></span></div>
+    </div>
+    
   </div>
- 
+  </div>
   
-
-  
-
-  
-
-
-
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
 
   Page Views
   87
