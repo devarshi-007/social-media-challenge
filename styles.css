@@ -1,0 +1,10 @@
+.bg-pale-blue{
+    background-color:hsl(225, 100%, 98%);
+}
+
+.font-custom{
+    font-family: 'Inter', sans-serif;
+}
+.bg-card-blue{
+    background-color:hsl(227, 47%, 96%);
+}
