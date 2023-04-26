@@ -22,8 +22,10 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ## My Output
 
 **on 1440**
+<br />
 ![image](https://user-images.githubusercontent.com/124968745/234537952-4116ca3b-1804-40a4-aa99-6d9fe2dc3e63.png)
 
 **on 375**
+<br />
 ![image](https://user-images.githubusercontent.com/124968745/234538187-8e63ee69-b71e-4367-a2db-51ea3b7fef68.png)
 
